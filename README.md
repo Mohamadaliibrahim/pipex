@@ -63,16 +63,7 @@ In this case, `pipex` will:
 - Must use `execve()` to execute commands.
 - Handle error scenarios such as invalid commands or files that cannot be opened.
 
-### Resources
-
-- [42 School Project Overview](https://42.fr/en/homepage/)
-- [Unix Pipe Documentation](https://man7.org/linux/man-pages/man2/pipe.2.html)
-- [Execve System Call](https://man7.org/linux/man-pages/man2/execve.2.html)
-
 ### Author
 
 This project was developed by **mohamibr** as part of the 42 school curriculum.
 
----
-
-You can customize it further based on any additional features or unique aspects you may have implemented.
