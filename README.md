@@ -56,14 +56,6 @@ In this case, `pipex` will:
 - Pipe the result to `wc -l` to count the number of lines,
 - Write the result to `outfile`.
 
-### Files
-
-- **pipex.c**: The main function that handles argument parsing and calling the necessary functions.
-- **file_operations.c**: Functions for opening and closing files.
-- **execution.c**: Functions that handle the execution of commands using `execve` and `fork`.
-- **pipe_operations.c**: Functions that manage piping between processes.
-- **error_handling.c**: Functions to handle errors and display appropriate messages.
-
 ### Requirements
 
 - Must handle multiple processes using `fork()`.
